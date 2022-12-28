@@ -46,7 +46,6 @@ public class Assignment10 {
             driver.findElement(By.xpath("//button[contains(@aria-label, 'Next Month')]")).click();
             driver.findElements(By.xpath("//div[contains(@class, 'react-datepicker__day react-datepicker__day--015')]"));
 
-
             driver.findElement(By.xpath("//div[contains(text(), 'Select Category')]")).click();
             driver.findElement(By.xpath("//div[contains(text(), 'Select Category')]//following::button[3]")).click();
             driver.findElement(By.xpath("//button[contains(text(), 'Save')]")).click();
@@ -71,7 +70,6 @@ public class Assignment10 {
             }
 
             driver.findElement(By.xpath("//button[text()=\"Sign out\"]")).click();
-
 
         }
     }
