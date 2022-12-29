@@ -8,10 +8,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
 import java.time.Duration;
-import java.util.HashMap;
-import java.util.List;
 
-public class Assignment10 {
+public class AssignmentAutomation10 {
 
     public static void main(String[] args) {
 
